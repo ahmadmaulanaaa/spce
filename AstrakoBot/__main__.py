@@ -104,7 +104,7 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-ASTRAKOBOT_IMG = "https://telegra.ph/file/31d35b84afd93b454e35f.jpg"
+ASTRAKOBOT_IMG = "https://telegra.ph/file/3bec7ac58dc47685f8273.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 AstrakoBot is hosted on its own server and doesn't require any donations as of now but \
