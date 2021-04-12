@@ -241,11 +241,16 @@ def start(update: Update, context: CallbackContext):
                                 text="Support Channel",
                                 url="https://t.me/storyangkasa",
                             ),
-                        ],
-                        [
                             InlineKeyboardButton(
                                 text="Source code",
                                 url="https://github.com/Astrako/AstrakoBot",
+                                ),
+                            )
+                         ],
+                         [
+                             InlineKeyboardButton(
+                                 Text="Syntyche Official Group"
+                                 url="https://t.me/syntychegroup",
                             )
                         ],
                     ]
