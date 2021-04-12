@@ -77,16 +77,16 @@ HALLO SOBAT PANTEK {}! NAMA GUA {}!
 GUA HADIR UNTUK MELENYAPKAN PANTEK PEOPLE!.
 
 IJIN DULU SOBAT PANTEK KALO MAU PAKAI!
-PM KE @leoangkasaaa @Betterthaanhecan
+PM KE [Leo](t.me/leoangkasaaa) atau [Mol](t.me/Betterthaanhecan)
 UNDANG GUA KEGRUP KALIAN DAN JADIKAN ADMIN!
 GUA SIAP UNTUK MELENYAPKAN PARA PANTEK PEOPLE! gunakan /help.
-JANGAN LUPA UNTUK SUPPORT CHANNEL @storyangkasa @ruangpublikk
+JANGAN LUPA UNTUK SUPPORT CHANNEL [Storyangkasa](t.me/storyangkasa) [RuangPublik](t.me/ruangpublikk)
 """
 
 HELP_STRINGS = """
 Hey Pantek! Gua *{}*.
 GUA PUNYA BANYAK MODULE NIH, COBA LIAT KEBAWAH ADA PANDUANNYA KAN? NAH COBAIN AJA YA.
-KALO GAK NGERTI BISA PM KE @leoangkasaaa @Betterthaanhecan
+KALO GAK NGERTI BISA PM KE [♌](t.me/leoangkasaaa) & [♏](t.me/Betterthaanhecan)
 
 *Main* commands available:
  • /help: PM's you this message.
@@ -237,12 +237,10 @@ def start(update: Update, context: CallbackContext):
                                 text="Support Channel",
                                 url=f"https://t.me/ruangpublikk",
                             ),
-                        ],
-                        [
                             InlineKeyboardButton(
                                 text="Support Channel",
                                 url="https://t.me/storyangkasa",
-                            )
+                            ),
                         ],
                         [
                             InlineKeyboardButton(
