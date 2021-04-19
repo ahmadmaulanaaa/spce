@@ -224,7 +224,6 @@ def start(update: Update, context: CallbackContext):
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
                     [
-                        [
                             InlineKeyboardButton(
                                 text="Add Athaya",
                                 url="t.me/{}?startgroup=true".format(
@@ -246,8 +245,7 @@ def start(update: Update, context: CallbackContext):
                                  Text="Syntyche Official Group",
                                  url="https://t.me/syntychegroup",
                             )
-                        ],
-                    ]
+                      ]
                 ),
             )
     else:
