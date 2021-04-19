@@ -229,10 +229,7 @@ def start(update: Update, context: CallbackContext):
                                 text="Add Athaya",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
-                                ),
-                            )
-                        ],
-                        [
+                            ),
                             InlineKeyboardButton(
                                 text="Support Channel",
                                 url=f"https://t.me/ruangpublikk",
