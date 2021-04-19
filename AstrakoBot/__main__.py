@@ -243,7 +243,7 @@ def start(update: Update, context: CallbackContext):
                                 url="https://github.com/Astrako/AstrakoBot",
                              ),
                              InlineKeyboardButton(
-                                 Text="Syntyche Official Group"
+                                 Text="Syntyche Official Group",
                                  url="https://t.me/syntychegroup",
                             )
                         ],
